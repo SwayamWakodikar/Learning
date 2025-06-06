@@ -15,7 +15,7 @@
     position: relative;
     z-index: 10;
     box-shadow: 0 0 12px 3px 45454b;
-
+    
 }
 .navbar h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,6 +26,9 @@
     align-items: center;
     justify-content: flex-start;
     padding-left: 06px;
+    @media (max-width: 480px) {
+      font-size:20px ;
+    }
     
 }
 .navbar .Access{
@@ -42,6 +45,13 @@
     justify-content: space-between;
     margin: 0 10px;           /* adds spacing between links */
     outline: none;   
+    @media (max-width: 480px){
+      word-wrap: break-word;       /* Ensures words break properly if needed */
+  overflow-wrap: break-word;   /* Fallback for some browsers */
+  word-break: keep-all; 
+  
+      
+    }
     /* @media (max-width:) {
       
     } */
@@ -100,6 +110,10 @@
     padding-right: 5px;
     height: 100px;
     box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.6);
+    @media(max-width: 480px){
+      width: 100%;
+      word-wrap: break-word;
+    }
 }
 /* Style for dropdown */
 .dropdown {
