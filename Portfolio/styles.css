@@ -18,8 +18,8 @@
 .navbar h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: #6e57bc;
-  color: #c3bcfa;
+  background-color: #402e7a;
+  color: #d4ceff;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -33,7 +33,7 @@
 }
 .Access a {
   background-color: #402e7a;
-  color: #aebacf;
+  color: #d4ceff;
   text-decoration: none;
   justify-content: space-between;
   margin: 0 10px; /* adds spacing between links */
