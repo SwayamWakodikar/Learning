@@ -43,5 +43,27 @@
             </div>
         </div>
     </div>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const dropdownToggle = document.querySelector(".dropdown-toggle");
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+
+    // Only enable click toggle for screen <= 768px
+    if (window.innerWidth <= 768) {
+      dropdownToggle.addEventListener("click", function (e) {
+        e.preventDefault(); // Stop link
+        dropdownMenu.style.display =
+          dropdownMenu.style.display === "block" ? "none" : "block";
+        dropdownMenu.style.opacity =
+          dropdownMenu.style.opacity === "1" ? "0" : "1";
+        dropdownMenu.style.transform =
+          dropdownMenu.style.transform === "translateY(0px)"
+            ? "translateY(-10px)"
+            : "translateY(0px)";
+      });
+    }
+  });
+</script>
+
 </body>
 </html>

@@ -22,6 +22,7 @@
     background-color:#45454b;
     color: #d1d1d1;
     display: flex;
+    height: 50px;
     align-items: center;
     justify-content: flex-start;
     padding-left: 06px;
@@ -30,6 +31,7 @@
 .navbar .Access{
     background-color:#45454b;
     display: flex;
+    
     justify-content: flex-end;
     margin-left: auto;
 }
@@ -39,7 +41,10 @@
     text-decoration: none;
     justify-content: space-between;
     margin: 0 10px;           /* adds spacing between links */
-    outline: none;    
+    outline: none;   
+    /* @media (max-width:) {
+      
+    } */
 }
 .main{
     background-image: url(./Img/5590457.jpg) ;
@@ -66,11 +71,18 @@
     height: 50px;
     background-color: #56555c;
     box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.6);
+    @media (max-width: 600px) {
+      height: 100px;
+    }
 }
 .main img {
     object-fit: cover;
     width: 300px;
     height: 300px;
+    @media (	max-width: 480px){
+      width: 200px;
+      height: 200px;
+    }
     border-radius: 50%;
     border: 10px solid #56555c;
     box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.6);
