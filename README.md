@@ -10,11 +10,11 @@ https://swayamwakodikar.github.io/PortFolio/
 Hi! I'm Swayam Wakodikar, a passionate developer who loves turning ideas into interactive, user-friendly websites and applications. This portfolio is a glimpse of what I do and how I think as a developer.
 
 <h3>🛠️ Tech Stack</h3>
-Frontend: HTML5, CSS3, JavaScript, TailwindCSS, React (if used)
+Frontend: HTML5, CSS3, JavaScript
 
 Animations: CSS Transitions, Keyframes, Hover Effects
 
-Tools: VS Code, Git & GitHub, Figma (if used for design)
+Tools: VS Code, Git & GitHub
 
 Hosting: GitHub Pages
 
