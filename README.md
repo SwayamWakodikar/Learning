@@ -33,7 +33,9 @@ Click-based dropdown navigation (mobile-friendly)
 
 <h3>Connrct With me</h3> 
 <a href="https://www.instagram.com/swayam_w06/?next=%2F" target="_blank"> Instagram</a>
+<br>
 <a href="https://www.linkedin.com/in/swayam-wakodikar-32467330a/"target="_blank"> LinkedIn</a>
+<br>
 <a href="https://github.com/SwayamWakodikar" target="_blank"> GitHub</a>
 
 <h3>📄 License</h3>
