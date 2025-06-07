@@ -159,4 +159,6 @@
   transform: translateY(0px);
   pointer-events: auto;
 }
-
+.Projects{
+  float: right;
+}
