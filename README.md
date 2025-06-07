@@ -1,4 +1,4 @@
-# Learning
+# PortFolio
 <h3>💼 Swayam Wakodikar | Developer Portfolio</h3>
 Welcome to my developer portfolio! This repository showcases my personal projects, skills, and experiences. Built with clean code and creative design, this portfolio is a reflection of my journey in web development and software engineering.
 
