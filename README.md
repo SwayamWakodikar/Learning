@@ -4,7 +4,7 @@ Welcome to my developer portfolio! This repository showcases my personal project
 
 <h3>🚀 Live Demo/</h3>
 👉 View Portfolio Website
-https://swayamwakodikar.github.io/Learning/#
+https://swayamwakodikar.github.io/PortFolio/
 
 <h3>📌 About Me</h3>
 Hi! I'm Swayam Wakodikar, a passionate developer who loves turning ideas into interactive, user-friendly websites and applications. This portfolio is a glimpse of what I do and how I think as a developer.
