@@ -8,7 +8,11 @@
 }
 .navbar {
   /* margin-top: px; */
+    background: linear-gradient(to right, #3b4ea5, #6dd5ed); /* deep blue to cyan */
+
+
   background-color: #3f3fa3;
+  
   height: 50px;
   display: flex;
   align-items: center;
@@ -20,7 +24,7 @@
 .navbar h2 {
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   /* background-color: #45454b; */
-  color: #d1d1d1;
+  color: #000000;
   display: flex;
   height: 50px;
   align-items: center;
@@ -38,7 +42,7 @@
   margin-left: auto;
 }
 .Access a {
-  color: #d1d1d1;
+  color: #000000;
   text-decoration: none;
   justify-content: space-between;
   margin: 0 10px;
@@ -54,7 +58,8 @@
 }
 .main {
   display: grid;
-  background-image: url(./Img/light-color-pink-and-blue-background-8zrww1yggwb8mbh3.jpg);
+  background: linear-gradient(to bottom right, #3b82f6, #9333ea);
+  /* backgroun/d-image: url(./Img/light-color-pink-and-blue-background-8zrww1yggwb8mbh3.jpg); */
   background-size: cover;
   overflow: hidden;
   height: 100vh;
@@ -170,20 +175,24 @@
 .Projects {
   grid-column: 2;
   grid-row: 1;
-  background-color: #7eabd7;
+      background: linear-gradient(to right, #3b4ea5, #6dd5ed); /* deep blue to cyan */
+
+  /* background-color: #7eabd7; */
   padding: 20px;
   border-radius: 10px;
   color: white;
   align-self: start;
   margin-top: 50px;
-  box-shadow: 0 0 12px 3px rgba(60, 123, 241, 0.6);
+  box-shadow: 0 0 12px 3px rgb(83, 184, 231);
 }
 
 .Projects .Project1,
 .Projects .Project2 {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: rgb(0, 0, 0);
+        background: linear-gradient(to right, #b2f1ff, #1e2a62); /* deep blue to cyan */
+
   background-color: #455cc3;
   padding: 15px 20px;
   /* margin-bottom: 5px;
@@ -202,7 +211,7 @@
 /* Style the links area */
 .Projects .links1 a {
   font-size: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   display: inline-block;
   margin-bottom: 8px;
@@ -210,7 +219,7 @@
 }
 .Projects .links2 a {
   font-size: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   display: inline-block;
   margin-bottom: 8px;
@@ -228,17 +237,20 @@
 .Project1:hover {
   transform: scale(1.02);
   transition: 0.3s ease;
+  box-shadow: 0 0 12px 3px rgb(255, 255, 255);
 }
 .Project2:hover {
   transform: scale(1.02);
   transition: 0.3s ease;
+    box-shadow: 0 0 12px 3px rgb(255, 255, 255);
+
 }
 @media (max-width: 500px) {
   .Projects {
     display: flex;
     align-items: center;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
     background-color: #7eabd7;
     padding: 20px;
     border-radius: 10px;
@@ -247,37 +259,32 @@
     margin-top: 50px;
     box-shadow: 0 0 12px 3px rgba(60, 123, 241, 0.6);
   }
-  .main{
-  display: grid;
-  background-image: url(./Img/light-color-pink-and-blue-background-8zrww1yggwb8mbh3.jpg);
-  background-size: cover;
-  overflow: hidden;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  padding: 20px;
+  .main {
+    display: grid;
+    
+    overflow: visible;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
   }
   .img h2 {
-  color: white;
-  display: flex;
-  white-space: nowrap;
-  /* padding-top: 10px; */
-  padding-left: 10px;
-  align-items: center;
-  margin-top: 10px;
-  grid-row: 3;
-  /* justify-content:space-between; */
-  justify-self: center;
-  border-radius: 10px;
-  width: 350px;
-  height: 50px;
-  /* background-color: #7767d3; */
-  background-color: #3b4ea5;
-  box-shadow: 0 0 12px 3px rgba(25, 0, 247, 0.6);
-  @media (max-width: 600px) {
-    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    white-space: normal;
+    padding: 10px;
+    border-radius: 10px;
+
+    width: 100%;
+    max-width: 350px;
+    height: auto; 
+
+    background-color: #3b4ea5;
+    box-shadow: 0 0 12px 3px rgba(25, 0, 247, 0.6);
   }
-}
 }
