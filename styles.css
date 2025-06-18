@@ -38,15 +38,14 @@
   margin-left: auto;
 }
 .Access a {
-  
   color: #d1d1d1;
   text-decoration: none;
   justify-content: space-between;
-  margin: 0 10px; 
+  margin: 0 10px;
   outline: none;
   @media (max-width: 480px) {
-    word-wrap: break-word; 
-    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
     word-break: keep-all;
   }
   /* @media (max-width:) {
@@ -72,6 +71,10 @@
   /* align-items: center; */
   /* padding-top: 30px;
   padding-left: 30px; */
+  @media (max-width: 480px) {
+    display: flex;
+    align-items: center;
+  }
 }
 .img h2 {
   color: white;
@@ -102,7 +105,7 @@
     height: 200px;
   }
   border-radius: 50%;
-  border: 10px solid #7EABD7;
+  border: 10px solid #7eabd7;
   box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.6);
 }
 .info {
@@ -158,7 +161,6 @@
   border-radius: 20px;
 }
 
-
 .dropdown:hover .dropdown-content {
   opacity: 1;
   transform: translateY(0px);
@@ -167,7 +169,7 @@
 .Projects {
   grid-column: 2;
   grid-row: 1;
-  background-color: #7EABD7;
+  background-color: #7eabd7;
   padding: 20px;
   border-radius: 10px;
   color: white;
@@ -176,11 +178,10 @@
   box-shadow: 0 0 12px 3px rgba(60, 123, 241, 0.6);
 }
 
-
 .Projects .Project1,
 .Projects .Project2 {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   color: white;
   background-color: #455cc3;
   padding: 15px 20px;
@@ -191,19 +192,17 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-
 .Projects h3 {
   margin-bottom: 10px;
   font-size: 30px;
   font-weight: bold;
-
 }
 
 /* Style the links area */
-.Projects .links1 a{
+.Projects .links1 a {
   font-size: 20px;
   color: white;
-  text-decoration:none;
+  text-decoration: none;
   display: inline-block;
   margin-bottom: 8px;
   transition: color 0.3s ease;
@@ -211,7 +210,7 @@
 .Projects .links2 a {
   font-size: 20px;
   color: white;
-  text-decoration:none;
+  text-decoration: none;
   display: inline-block;
   margin-bottom: 8px;
   transition: color 0.3s ease;
@@ -221,42 +220,41 @@
 .Projects .links2 a:hover {
   color: #ccc;
 }
-
-/* Responsive tweaks */
-/* @media (max-width: 600px) {
-  .Projects {
-    grid-column: 1 / -1;
-    margin-top: 20px;
-  }
-
-  .Projects .Project1,
-  .Projects .Project2 {
-    padding: 10px 15px;
-  }
-
-  .Projects h3 {
-    font-size: 18px;
-  }
-
-  .Projects .links1 a,
-  .Projects .links2 a {
-    font-size: 14px;
-  }
-} */
-
 .img img:hover {
   transform: scale(1.02);
   transition: 0.3s ease;
 }
-.Project1:hover{
+.Project1:hover {
   transform: scale(1.02);
   transition: 0.3s ease;
 }
-.Project2:hover{
+.Project2:hover {
   transform: scale(1.02);
   transition: 0.3s ease;
 }
-
-
-
-
+@media (max-width: 480px) {
+  .Projects {
+    grid-column: 1;
+    grid-row: 2;
+    
+    background-color: #7eabd7;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    align-self: start;
+    margin-top: 50px;
+    box-shadow: 0 0 12px 3px rgba(60, 123, 241, 0.6);
+  }
+  .main{
+  display: grid;
+  background-image: url(./Img/light-color-pink-and-blue-background-8zrww1yggwb8mbh3.jpg);
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px;
+  padding: 20px;
+  }
+}
